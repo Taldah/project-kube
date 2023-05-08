@@ -12,10 +12,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Install php app
-      uses: php-fpm/install-php-app-action@v1.1.1
-      with:
-          version: latest
     - name: Checkout
       uses: actions/checkout@v2
 
