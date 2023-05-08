@@ -13,7 +13,7 @@ jobs:
 
     steps:
     - name: Install php app
-      uses: OctopusDeploy/install-php-app-action@v1.1.1
+      uses: php-fpm/install-php-app-action@v1.1.1
       with:
           version: latest
     - name: Checkout
