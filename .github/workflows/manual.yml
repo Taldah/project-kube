@@ -32,4 +32,4 @@ jobs:
           context: .
           file: Dockerfile1 
           push: true
-          tags: taldah/nginx_srv:lates
+          tags: nginx/srv:lates
