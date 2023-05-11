@@ -42,6 +42,8 @@ spec:
     # along with the files shared with the PHP-FPM app.
     - image: taldah/nginxserver:lates
       name: nginx
+        ports:
+            - containerPort: 8080
     #  volumeMounts:
     #    - name: shared-files
     #      mountPath: /var/www/html
