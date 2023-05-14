@@ -5,7 +5,7 @@ metadata:
   namespace: kube-system
 data:
   mapUsers: |
-    - userarn: arn:aws:eks:us-east-1:210893161398:cluster/eks-repo
-      username: eks-repo
+    - userarn: arn:aws:iam::210893161398:user/terra1
+      username: admin-user1
       groups:
         - system:masters
