@@ -1,4 +1,4 @@
- apiVersion: apps/v1
+  apiVersion: apps/v1
   kind: Deployment
   metadata:
     name: simple-bank-api-deployment
@@ -16,6 +16,6 @@
       spec:
          containers:
          - name: simple-bank-api
-           image:210893161398.dkr.ecr.us-east-1.amazonaws.com/dockers
+           image:210893161398.dkr.ecr.us-east-1.amazonaws.com/dockers:latest
            ports:
             - containerPort: 8080
