@@ -11,8 +11,8 @@
         app: simple-bank-api
     template:
       metadata:
-         labels:
-           app: simple-bank-api
+        labels:
+          app: simple-bank-api
       spec:
         containers:
         - name: simple-bank-api
